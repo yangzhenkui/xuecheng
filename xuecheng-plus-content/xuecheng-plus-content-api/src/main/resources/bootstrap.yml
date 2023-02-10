@@ -1,0 +1,19 @@
+server:
+  port: 63040
+  servlet:
+    context-path: /content
+spring:
+  application:
+    name: content-api
+
+
+swagger:
+  title: "学成在线内容管理系统"
+  description: "内容管理系统：对课程相关信息进行业务管理数据"
+  base-package: com.zkyang
+  enabled: true
+  version: 1.0.0
+
+
+logging:
+  config: classpath:log4j2-dev.xml

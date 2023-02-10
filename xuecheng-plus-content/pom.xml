@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <!--artifactId为项目名-->
+        <artifactId>xuecheng-plus-parent</artifactId>
+        <!--groupId为包名-->
+        <groupId>com.zkyang</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+        <!--relativePath项目的相对路径-->
+        <relativePath>../xuecheng-plus-parent</relativePath>
+    </parent>
+
+    <!-- content 也是作为一个父项目-->
+    <artifactId>xuecheng-plus-content</artifactId>
+    <name>xuecheng-plus-content</name>
+    <description>xuecheng-plus-content</description>
+    <packaging>pom</packaging>
+
+    <!-- modules为管理的模块-->
+    <modules>
+        <module>xuecheng-plus-content-api</module>
+        <module>xuecheng-plus-content-model</module>
+        <module>xuecheng-plus-content-service</module>
+    </modules>
+</project>
